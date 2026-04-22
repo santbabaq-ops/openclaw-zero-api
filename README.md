@@ -1,6 +1,6 @@
-# WebAgent-Proxy
+# OpenClaw-Zero-API
 
-**免 API Token 使用大模型** - 通过浏览器登录方式免费使用各大 AI 平台。
+**首个自动化爬取浏览器 Token 并转换为 OpenAI 兼容 API 接口的项目** - 通过浏览器登录方式免费使用各大 AI 平台。
 
 ## 灵感来源
 
