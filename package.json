@@ -1,0 +1,23 @@
+{
+  "name": "webagent-proxy",
+  "version": "0.2.0",
+  "description": "免 API Token 使用大模型 - 通过浏览器登录方式免费使用各大 AI 平台",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "fastify": "^4.25.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.0"
+  }
+}
