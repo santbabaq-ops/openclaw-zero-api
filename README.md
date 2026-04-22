@@ -2,6 +2,21 @@
 
 **免 API Token 使用大模型** - 通过浏览器登录方式免费使用各大 AI 平台。
 
+## 灵感来源
+
+本项目借鉴自 [openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)，基于其核心思想重新实现。
+
+### 借鉴与创新
+
+| openclaw-zero-token | WebAgent-Proxy |
+|---------------------|----------------|
+| OpenClaw Agent 框架 | 轻量级 Fastify API |
+| 复杂的多层架构 | 简洁的单体设计 |
+| 内置 AI 模型路由 | 纯浏览器自动化 + Token 提取 |
+| 完整的 Agent 生态 | 专注 DOM 操作能力 |
+
+**核心思路**：通过 Playwright 控制浏览器，用户只需登录一次，后续自动加载保存的登录凭证（Cookie/LocalStorage），无需重复登录。
+
 ## 功能
 
 - 🌐 **浏览器自动化** - Playwright 非无头浏览器控制，第一次登录后自动保存凭证
