@@ -54,7 +54,7 @@ export const PROVIDERS: Provider[] = [
     id: 'grok',
     name: 'Grok',
     baseUrl: 'https://grok.com',
-    defaultModel: 'grok-1',
+    defaultModel: 'grok-3',
     loginUrl: 'https://grok.com/login'
   },
   {
