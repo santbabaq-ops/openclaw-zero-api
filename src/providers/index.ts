@@ -19,7 +19,7 @@ export const PROVIDERS: Provider[] = [
     id: 'chatgpt',
     name: 'ChatGPT',
     baseUrl: 'https://chatgpt.com',
-    defaultModel: 'gpt-4',
+    defaultModel: 'gpt-4-turbo',
     loginUrl: 'https://chatgpt.com/login'
   },
   {
@@ -33,14 +33,14 @@ export const PROVIDERS: Provider[] = [
     id: 'qwen',
     name: 'Qwen',
     baseUrl: 'https://chat.qwen.ai',
-    defaultModel: 'qwen-max',
+    defaultModel: 'qwen3.5-plus',
     loginUrl: 'https://chat.qwen.ai/'
   },
   {
     id: 'kimi',
     name: 'Kimi',
     baseUrl: 'https://www.kimi.com',
-    defaultModel: 'moonshot-v1-32k',
+    defaultModel: 'moonshot-v1-8k',
     loginUrl: 'https://www.kimi.com/signin'
   },
   {
@@ -54,7 +54,7 @@ export const PROVIDERS: Provider[] = [
     id: 'grok',
     name: 'Grok',
     baseUrl: 'https://grok.com',
-    defaultModel: 'grok-2',
+    defaultModel: 'grok-1',
     loginUrl: 'https://grok.com/login'
   },
   {
